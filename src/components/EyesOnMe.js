@@ -4,6 +4,6 @@ export default class EyesOnMe extends Component {
 
 
     render() {
-        return <button value="submit" onFocus={() => console.log('Good!')} onBlur={() => console.log('Hey! Eyes on me!')} ></button>
+        return <button onFocus={() => console.log('Good!')} onBlur={() => console.log('Hey! Eyes on me!')} >Hey!</button>
     }
 }
